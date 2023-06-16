@@ -36,7 +36,6 @@ const primarySidebar = {
     ],
 }
 export default defineConfig({
-    base: "/yyp-blog.github.io/",
     lastUpdated: true,
     cleanUrls: true,
     title: 'You',
