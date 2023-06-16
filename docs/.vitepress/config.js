@@ -10,7 +10,7 @@ const primarySidebar = {
             collapsed: true,
             items: [
                 // This shows `/guide/table.md` page.
-                {text: 'Table', link: '/components/Table/table'}, // /guide/table.md
+                {text: 'Table', link: '/components/Table/'}, // /guide/table.md
             ]
         },
     ],
@@ -58,6 +58,8 @@ export default defineConfig({
         }
     },
     themeConfig: {
+        lastUpdatedText: '最近更新',
+        outlineTitle: '页面目录',
         logo: '/icons.png',
         siteTitle: false,
         smoothScroll: true,
@@ -67,7 +69,7 @@ export default defineConfig({
         },
         nav: [
             {text: "首页", link: "/"},
-            {text: "组件", link: "/components/Table/table"},
+            {text: "组件", link: "/components/Table/"},
             {text: "笔记", link: "/documents/Vue3"},
             {text: "博客", link: "/blog/"}
         ],
