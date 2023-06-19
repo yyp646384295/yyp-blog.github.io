@@ -50,20 +50,17 @@
 
   </el-table>
 
-  <Pagination
-      v-show="total > 0"
-      :total="total"
-      :page.sync="queryParams.pageNum"
-      :limit.sync="queryParams.pageSize"
-      @pagination="getPagination"
-  />
+  <!--<Pagination-->
+  <!--    v-show="total > 0"-->
+  <!--    :total="total"-->
+  <!--    :page.sync="queryParams.pageNum"-->
+  <!--    :limit.sync="queryParams.pageSize"-->
+  <!--    @pagination="getPagination"-->
+  <!--/>-->
 </template>
 
 
 <script lang="ts" setup>
-import Pagination from "./Pagination.vue";
-import {defineProps} from 'vue'
-
 
 const emit = defineEmits(['getPagination', 'handleCommand'])
 
@@ -164,6 +161,7 @@ const handleCommand = (id, row) => {
 
 </script>
 <script lang="ts">
+
 export default {
   name: "DynamicTable",
 }
