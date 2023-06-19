@@ -23,8 +23,7 @@ const primarySidebar = {
             collapsed: true,
             items: [
                 // This shows `/config/table.md` page.
-                {text: 'Vue3', link: '/documents/Vue3'}, // /config/table.md
-                {text: 'GitHub Actions', link: '/documents/github_actions'}, // /config/table.md
+                {text: 'GitHub Actions', link: '/documents/github_actions/'}, // /config/table.md
             ]
         }
     ],
@@ -64,7 +63,7 @@ export default defineConfig({
         nav: [
             {text: "首页", link: "/"},
             {text: "组件", link: "/components/Table/"},
-            {text: "笔记", link: "/documents/Vue3"},
+            {text: "笔记", link: "/documents/github_actions/"},
         ],
         socialLinks: [
             {icon: "github", link: "https://github.com/yyp646384295"},

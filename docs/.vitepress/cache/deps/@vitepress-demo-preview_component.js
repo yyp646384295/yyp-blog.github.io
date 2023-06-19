@@ -18,9 +18,9 @@ import {
   unref,
   watch,
   withCtx
-} from "./chunk-R5B5DES7.js";
+} from "./chunk-4MI3EEBU.js";
 
-// node_modules/.pnpm/registry.npmmirror.com+@vitepress-demo-preview+component@2.3.0_vitepress@1.0.0-beta.2_vue@3.3.4/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
+// node_modules/@vitepress-demo-preview/component/dist/preview-component.js
 var Z = (t, c) => {
   const e = t.__vccOpts || t;
   for (const [l, r] of c)
