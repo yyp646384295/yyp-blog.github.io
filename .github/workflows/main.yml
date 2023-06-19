@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build VitePress site
+      - name: Build VitePress site # 部署
         run: pnpm run build
 
       - name: Deploy Github Pages
