@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: You Yan Ping
-  text: 个人的学习记录
+  name: You Yan Ping '
+  text: 个人博客
   tagline: 持续学习归纳...
   image: 
     src: /tiger.png

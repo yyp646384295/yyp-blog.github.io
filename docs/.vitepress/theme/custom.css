@@ -22,6 +22,10 @@
     transform: translateX(10px);
 }
 
+.VPSidebarItem  a h3 {
+    transform: translateX(10px);
+}
+
 .VPSidebarItem .item:not([role="button"]) a:hover {
     background-color: #d7d7e9;
     border-radius: 5px;

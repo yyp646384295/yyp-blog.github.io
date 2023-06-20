@@ -22,8 +22,38 @@ const primarySidebar = {
             collapsible: true,
             collapsed: true,
             items: [
-                // This shows `/config/table.md` page.
-                {text: 'GitHub Actions', link: '/documents/github_actions/'}, // /config/table.md
+                {
+                    text: 'Git',
+                    link: '/documents/Git/',
+                    collapsible: true,
+                    collapsed: true,
+                    items: [
+                        {
+                            text: 'Git基本命令',
+                            link: '/documents/Git/'
+                        },
+                        {
+                            text: 'Github Actions',
+                            link: '/documents/Git/github_actions/'
+                        },
+                    ]
+                },
+                {
+                    text: 'Vue',
+                    link: '/documents/Vue/',
+                    collapsible: true,
+                    collapsed: true,
+                    items: [
+                        {
+                            text: '整理归纳',
+                            link: '/documents/Vue/'
+                        },
+                        // {
+                        //     text: 'Vue.js 设计与实现',
+                        //     link: '/documents/Vue/design'
+                        // }
+                    ]
+                }, // /config/table.md
             ]
         }
     ],
@@ -63,7 +93,7 @@ export default defineConfig({
         nav: [
             {text: "首页", link: "/"},
             {text: "组件", link: "/components/Table/"},
-            {text: "笔记", link: "/documents/github_actions/"},
+            {text: "笔记", link: "/documents/Vue/"},
         ],
         socialLinks: [
             {icon: "github", link: "https://github.com/yyp646384295"},
